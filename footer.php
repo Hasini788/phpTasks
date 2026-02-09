@@ -4,9 +4,10 @@
         color: white;
         padding: 10px;
         text-align: center;
-        position: absolute; 
+        position: relative; 
         bottom: 0;
         width: 100%;
+        margin-top; 20px;
     }
        #main {
         width: 300px;

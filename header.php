@@ -63,8 +63,8 @@ contenttitle {
 <li><a href="ex2.php" class="btn btn-warning">Exercise 2</a></li>
 <li><a href="ex3.php" class="btn btn-warning">Exercise 3</a></li>
 <li><a href="ex4.php" class="btn btn-warning">Exercise 4</a></li>
-<li><a href="about.php" class="btn btn-warning">About Us</a></li>
-                <li><a href="contact.php" class="btn btn-warning">Contact Us</a></li>
+<li><a href="aboutus.php" class="btn btn-warning">About Us</a></li>
+                <li><a href="contactus.php" class="btn btn-warning">Contact Us</a></li>
             </ul>
 </nav>
     </header>

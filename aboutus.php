@@ -38,6 +38,3 @@ include 'header.php';
     // Include the footer to close the HTML tags
     include 'footer.php'; 
 ?>
-   <?php
-include 'footer.php';
-?>

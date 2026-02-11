@@ -1,37 +1,9 @@
 <?php include 'header.php'; ?>
 
-<?php
-$browser = $_SERVER['HTTP_USER_AGENT'];
-?>
-
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Welcome</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-       
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    
-     <style>
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding-top: 10px;
-  padding-bottom: 20px;
-}
-</style>
-
-</head>
-
-<body>
-
-
 <h2> Welcome </h2>
 
 <div class="container mt-4">
-    <h2>User Details</h2>
+    <h3>User Details</h3>
 
     <!-- Bootstrap Form -->
     <form method="post" action="">
@@ -67,6 +39,7 @@ $g3 = 5;
 
 <div class="container mt-5">
     <div class="container mb-5">
+        <h3>Student Grade Results</h3>
  <table class="table">
    
      <thead>
@@ -99,15 +72,24 @@ $g3 = 5;
 </table>
 </div>
 
+
 <p class="mt-4">
+
 <?php
+
 $str1 = "Hello";
+
 $str2 = "World";
+
 $combined = $str1 . $str2;
-
+echo "<h3>Length of the string</h3>";
 echo "<p>The total length of '" . $combined . "' is: " . strlen($combined) . "</p>";
-?> 
 
+?>
+
+
+<div class="container mt-4">
+    <h3>Number Addition Task</h3>
 <?php
 $a = 298;
 $b = 234;
@@ -115,11 +97,15 @@ $c = 46;
 
  echo "<p>The sum of $a, $b, and $c is: " . ($a + $b + $c) . "</p>";
 ?>
+</div>
 
+<div class="container mt-4 mb-5">
+    <h3>Browser Information</h3>
 <?php
 $browser = $_SERVER['HTTP_USER_AGENT'];
 echo "<p>Detected Browser: $browser</p>";
 ?>
+</div>
 
 <?php include 'footer.php'; ?>
 

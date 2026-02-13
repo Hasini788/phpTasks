@@ -65,6 +65,9 @@ contenttitle {
 <li><a href="ex4.php" class="btn btn-warning">Exercise 4</a></li>
 <li><a href="aboutus.php" class="btn btn-warning">About Us</a></li>
                 <li><a href="contactus.php" class="btn btn-warning">Contact Us</a></li>
+                <li><a href="form.php" class="btn btn-warning">Form</a></li>
+               <li><a href="retrieve.php" class="btn btn-warning">Retrieve</a></li>
+               <li><a href="update.php" class="btn btn-warning">Update/Delete</a></li>
             </ul>
 </nav>
     </header>
